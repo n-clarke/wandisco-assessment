@@ -86,6 +86,8 @@ For more info on the Synchronized issue view : ref: https://docs.oracle.com/java
 
 - [x] Fix and Solve Problem 2
 
+Issue was with ordering of locking and unlocking which meant that one ReentrantLock is locked and the other would be unlocked causing a failure.  When dealing with locking and unlocking this also needed to be synchronized.
+
 Useful for debugging with thread stack dumps:
 You can use jconsole, jvisualvm or jps to get the process id of your program and then run jstack <process-id> to get the thread stack dump: https://javajee.com/lock-ordering-deadlocks-in-java-with-example
 
