@@ -72,8 +72,9 @@ This has been verified and tested using unit tests in the following package:
 Path from Repository Root : src/test/java/com/wandisco/challenge/one/service
 
 As an alternative to display the above the getMessage() method will display the input of the shape with it's generated volume. This can be run via the following class:
+```
 Path from Repository Root : src/main/java/com/wandisco/challenge/one/Application.java
-
+```
 ## Requirements : Part II: Multithreading
 
 Key: () = to-do, - [x] = complete
@@ -98,7 +99,7 @@ Note* when asserts pass and are value the console will return 'Process finished 
 Two verison of Part II have been done one which is componentised package and the other which contains a single MultithreadingChallenge file.
 
 Componentised Solution
-```
+
 Path from Repository Root : src/main/java/com/wandisco/challenge/two/componentised
 ```
 Single Class Solution
