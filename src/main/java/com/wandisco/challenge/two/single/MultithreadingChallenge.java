@@ -60,7 +60,7 @@ class MultithreadingChallenge {
     }
 
     /**
-     * Problem 1 : Synchronized issue
+     * Problem 1 : Synchronisation issue
      *
      **/
     static void problem1() throws InterruptedException {
@@ -125,9 +125,7 @@ class MultithreadingChallenge {
     }
 
     public static void main(final String[] args) throws InterruptedException {
-        // Synchronized issue
-        // reason: https://docs.oracle.com/javase/tutorial/essential/concurrency/memconsist.html
-        // solution: https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html
+        // Synchronisation issue
         problem1();
 
         // Deadlock Issue
