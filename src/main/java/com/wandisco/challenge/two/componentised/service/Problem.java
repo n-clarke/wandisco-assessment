@@ -10,7 +10,7 @@ import static com.wandisco.challenge.two.componentised.utils.ProblemTwoHelper.th
 public class Problem {
 
     /**
-     * Problem 1
+     * Problem 1 : Synchronisation issue
      *
      **/
     public static void problem1() throws InterruptedException {
@@ -39,7 +39,7 @@ public class Problem {
     }
 
     /**
-     * Problem 2
+     * Problem 2 : Deadlock Issue
      *
      **/
     public static void problem2() throws InterruptedException {
