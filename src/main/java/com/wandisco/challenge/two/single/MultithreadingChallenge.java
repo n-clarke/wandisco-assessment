@@ -60,7 +60,7 @@ class MultithreadingChallenge {
     }
 
     /**
-     * Problem 1
+     * Problem 1 : Synchronized issue
      *
      **/
     static void problem1() throws InterruptedException {
@@ -111,7 +111,7 @@ class MultithreadingChallenge {
     }
 
     /**
-     * Problem 2
+     * Problem 2 : DeadLock
      *
      **/
     static void problem2() throws InterruptedException {
@@ -125,11 +125,12 @@ class MultithreadingChallenge {
     }
 
     public static void main(final String[] args) throws InterruptedException {
+        // Synchronized issue
         // reason: https://docs.oracle.com/javase/tutorial/essential/concurrency/memconsist.html
-        //solution: https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html
+        // solution: https://docs.oracle.com/javase/tutorial/essential/concurrency/syncmeth.html
         problem1();
-        //You can use jconsole, jvisualvm or jps to get the process id of your program and then run jstack <process-id> to get the thread stack dump
-        //https://javajee.com/lock-ordering-deadlocks-in-java-with-example
+
+        // Deadlock Issue
         problem2();
     }
 }
