@@ -70,4 +70,5 @@ Volume of Regular Tetrahedron = ((√(2) / 12) * e³)
 This has been verified and tested using unit tests in the following package:
 Path from Repository Root : src/test/java/com/wandisco/challenge/one/service
 
-As an alternative to display the above the getMessage() method will display the input of the shape with it's generated volume.
+As an alternative to display the above the getMessage() method will display the input of the shape with it's generated volume. This can be run via the following class:
+Path from Repository Root : src/main/java/com/wandisco/challenge/one/Application.java
