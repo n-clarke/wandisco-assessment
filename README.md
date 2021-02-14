@@ -42,8 +42,10 @@ Lombok
 
 ## Pre-Requisites
 
+To install the required dependenices run:
+```
 mvn clean install
-
+```
 ## Requirements
 
 ### Part I: Programming to Specification
