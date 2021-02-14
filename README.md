@@ -98,17 +98,21 @@ Note* when asserts pass and are value the console will return 'Process finished 
 Two verison of Part II have been done one which is componentised package and the other which contains a single MultithreadingChallenge file.
 
 Componentised Solution
+```
 Path from Repository Root : src/main/java/com/wandisco/challenge/two/componentised
-
+```
 Single Class Solution
+```
 Path from Repository Root : src/main/java/com/wandisco/challenge/two/single
-
+```
 To be able to run java -ea MultithreadingChallenge from the Single Class Solution:
 - First Compile the class using either maven and going to target complied code. Else run the following commands and replace ot remove {PATH} based on your path preference.
 
 Compile Code:
+```
 javac {PATH}src\main\java\com\wandisco\challenge\two\single\MultithreadingChallenge.java
-
+```
 Run Complied Code (with asserts '-ea' flag):
+```
 java -ea {PATH}src\main\java\com\wandisco\challenge\two\single\MultithreadingChallenge.java
-
+```
