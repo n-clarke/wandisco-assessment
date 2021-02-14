@@ -99,9 +99,9 @@ Note* when asserts pass and are value the console will return 'Process finished 
 Two verison of Part II have been done one which is componentised package and the other which contains a single MultithreadingChallenge file.
 
 Componentised Solution
-
+```
 Path from Repository Root : src/main/java/com/wandisco/challenge/two/componentised
-
+```
 Single Class Solution
 ```
 Path from Repository Root : src/main/java/com/wandisco/challenge/two/single
