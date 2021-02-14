@@ -34,12 +34,12 @@ Use your program to verify to 2 decimal places that:
 The attached MultithreadingChallenge.java entails two problems, exhibited by the methods MultithreadingChallenge.problem1 and respectively MultithreadingChallenge.problem2. Your task is to provide the necessary changes to MultithreadingChallenge.java so that the program terminates normally when run via: java -ea MultithreadingChallenge.
 
 ## Technologies Used
-
+```
 Java 11
 Maven 
 junit
 Lombok
-
+```
 ## Pre-Requisites
 
 To install the required dependenices run:
